@@ -55,7 +55,9 @@ const Home = () => {
       {/* Spline */}
       <div className="mb-8 xl:mb-0">
       <Spline scene="https://prod.spline.design/x1OjwG-9tg72I8Ha/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/x1OjwG-9tg72I8Ha/scene.splinecode" />
       </div>
+
     </section>
   );
 };
