@@ -7,6 +7,7 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import Work from "./work/page";
+import ThreeDContent from "./threeD/page";
 
 
 const Home = () => {
@@ -52,12 +53,6 @@ const Home = () => {
       <Stats />
       {/* Add Services component here */}
       <Work /> 
-      {/* Spline */}
-      <div className="mb-8 xl:mb-0">
-      <Spline scene="https://prod.spline.design/x1OjwG-9tg72I8Ha/scene.splinecode" />
-      <Spline scene="https://prod.spline.design/x1OjwG-9tg72I8Ha/scene.splinecode" />
-      </div>
-
     </section>
   );
 };
