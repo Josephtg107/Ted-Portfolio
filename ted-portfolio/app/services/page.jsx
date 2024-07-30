@@ -8,7 +8,7 @@ const services = [
   {
     num: '01',
     title: 'EDL App',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos sed enim unde? Dolores, aliquam laboriosam facere perspiciatis ex consequatur, minus nulla soluta quis voluptas ipsam sit, illum tempora ut!',
+    description: 'This app is designed for students, teachers, and school administrators to manage and annotate PDF documents containing school information. The app makes it easy to load, annotate, and save educational documents, providing a seamless experience for organizing school-related materials.',
     href: ""
   },
   {

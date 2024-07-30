@@ -26,6 +26,10 @@ const links = [
         name: 'contact',
         path: '/contact'
     },
+        {
+        name: '3D Content',
+        path: '/threeD'
+    },
 ];
 
 const MobileNav = () => {

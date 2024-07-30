@@ -17,11 +17,11 @@ import { TooltipContent } from '@radix-ui/react-tooltip';
 const projects = [
   {
     num: 'EDL',
-    category: 'iOS App',
+    category: 'iPadOS App',
     title: 'ELite Digital Learning',
     description:
     "This app is designed for students, teachers, and school administrators to manage and annotate PDF documents containing school information. The app makes it easy to load, annotate, and save educational documents, providing a seamless experience for organizing school-related materials.",
-    stack: [{name: "Swift"}, {name: "UiKit"}, {name:"Firebase"}],
+    stack: [{name: "Swift"}, {name: "PencilKit"}, {name:"Firebase"}, {name:"PDFKit"}, {name:"Spline"}],
     image: '/assets/work/thumb1.png',
     live: "",
     github: ""
@@ -33,18 +33,18 @@ const projects = [
     description:
     "WhatsApp API UI and AI Bot",
     stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
-    image: '/assets/work/thumb2.png',
+    image: '/assets/work/thumb3.png',
     live: "",
     github: ""
   },
   {
-    num: '03',
+    num: 'Sarahi & Luis',
     category: 'Web Page',
     title: 'L&S Wedding',
     description:
-    "My sister's Webpage",
+    "This website is designed to celebrate my sister's wedding, offering guests all the essential information they need. It features a beautifully crafted interface to explore event details, RSVP, view the wedding registry, share heartfelt messages, and see a countdown timer. Guests can also enjoy photo collages and create personal accounts for a personalized experience, ensuring a memorable and seamless celebration for everyone involved.",
     stack: [{name: "Html"}, {name: "Css"}, {name:"Javascript"}],
-    image: '/assets/work/thumb3.png',
+    image: '/assets/work/thumb2.png',
     live: "",
     github: ""
   },
