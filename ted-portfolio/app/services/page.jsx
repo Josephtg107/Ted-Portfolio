@@ -6,28 +6,40 @@ import Link from "next/link";
 
 const services = [
   {
-    num: '01',
-    title: 'EDL App',
-    description: 'This app is designed for students, teachers, and school administrators to manage and annotate PDF documents containing school information. The app makes it easy to load, annotate, and save educational documents, providing a seamless experience for organizing school-related materials.',
-    href: ""
+    "num": "01",
+    "title": "iOS App",
+    "description": "Expert iOS development services to create high-performance, user-friendly mobile applications. Specializing in Swift and SwiftUI, I design and build apps tailored to your specific needs, ensuring a seamless and engaging user experience.",
+    "href": ""
   },
   {
-    num: '02',
-    title: 'Royal AR App',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos sed enim unde? Dolores, aliquam laboriosam facere perspiciatis ex consequatur, minus nulla soluta quis voluptas ipsam sit, illum tempora ut!',
-    href: ""
+    "num": "02",
+    "title": "AR and 3D App",
+    "description": "Cutting-edge AR and 3D app development to bring your ideas to life. Utilizing the latest technologies, I create immersive experiences for education, entertainment, and business, enhancing user engagement and interaction.",
+    "href": ""
   },
   {
-    num: '04',
-    title: 'WhatsRoyal',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos sed enim unde? Dolores, aliquam laboriosam facere perspiciatis ex consequatur, minus nulla soluta quis voluptas ipsam sit, illum tempora ut!',
-    href: ""
+    "num": "03",
+    "title": "Web Portfolio",
+    "description": "Showcase your work with a custom web portfolio. I design and develop visually stunning portfolios that highlight your skills, projects, and achievements, helping you stand out in your field and attract potential clients or employers.",
+    "href": ""
   },
   {
-    num: '03',
-    title: 'L&S Wedding Page',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos sed enim unde? Dolores, aliquam laboriosam facere perspiciatis ex consequatur, minus nulla soluta quis voluptas ipsam sit, illum tempora ut!',
-    href: ""
+    "num": "04",
+    "title": "WhatsApp API Bot",
+    "description": "Automate your customer interactions with a custom WhatsApp API Bot. Designed to handle inquiries, provide support, and manage communications efficiently, my bots help streamline your business operations.",
+    "href": ""
+  },
+  {
+    "num": "05",
+    "title": "Web Site",
+    "description": "Website development services to establish your online presence. From personal blogs to business websites, I create responsive, visually appealing, and SEO-optimized sites using the latest web technologies.",
+    "href": ""
+  },
+  {
+    "num": "06",
+    "title": "E-commerce Site",
+    "description": "End-to-end e-commerce site development to help you sell online. I build secure, user-friendly online stores with features like product listings, shopping carts, and order management to boost your sales and grow your business.",
+    "href": ""
   },
 ]
 
