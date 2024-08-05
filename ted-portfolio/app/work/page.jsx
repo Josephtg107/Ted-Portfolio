@@ -20,7 +20,7 @@ const projects = [
     category: 'iPadOS App',
     title: 'ELite Digital Learning',
     description:
-    "This app is designed for students, teachers, and school administrators to annotate PDF documents containing school lessons. It provides an easy way to load, annotate, and save educational documents, offering a seamless experience for organizing school materials. Users can quickly access and modify their documents. Additionally, the app supports the integration of 3D objects, audio, and video, allowing for an interactive and immersive learning experience.",
+    "Elite Digital Learning app is designed for students, teachers, and school administrators to annotate PDF documents containing school lessons. It provides an easy way to load, annotate, and save educational documents, offering a seamless experience for organizing school materials. Users can quickly access and modify their documents. Additionally, the app supports the integration of 3D objects, audio, and video, allowing for an interactive and immersive learning experience.",
     stack: [{name: "SwiftUI"}, {name: "PencilKit"}, {name:"Firebase"}, {name:"PDFKit"}],
     image: '/assets/work/thumb1.png',
     live: "",
@@ -32,8 +32,19 @@ const projects = [
     title: 'Royal WhatsApp',
     description:
     "This WhatsApp API App with AI is designed to keep parents and clients informed and engaged. The system sends timely notifications about important events, updates, and activities. It provides a user-friendly interface for parents to receive real-time information about their children's progress, schedules, and school events. Clients can access our contact information, event details, and other relevant updates, ensuring seamless and effective communication for everyone involved.",
-    stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
+    stack: [{name: "SwiftUI"}, {name: "AVFoundation"}, {name:"Firebase"}, {name:"Swift"}],
     image: '/assets/work/thumb3.png',
+    live: "",
+    github: ""
+  },
+  {
+    num: 'KeepUp!',
+    category: 'iOS App',
+    title: 'KeepUp!',
+    description:
+    "KeepUp! It's a activity tracker, it notifies you throught out the day the task you wrote, and asks for you to take a picture of it it implements a system where if you upload a picture daily, it rewards you with points you can redeem to change the background color or sound effect in the app ",
+    stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
+    image: '/assets/work/thumb4.png',
     live: "",
     github: ""
   },
@@ -45,17 +56,6 @@ const projects = [
     "We built the website with my designers help to celebrate my sisters wedding, providing guests with all the essential information they need. It features a beautifully crafted interface to explore event details, RSVP, view the wedding registry, share heartfelt messages, and see a countdown timer. Guests can also enjoy photo collages and create personal accounts for a personalized experience, ensuring a memorable and informative page for everyone.",
     stack: [{name: "Html"}, {name: "Css"}, {name:"Javascript"}],
     image: '/assets/work/thumb2.png',
-    live: "",
-    github: ""
-  },
-  {
-    num: '02',
-    category: 'Web App',
-    title: 'WhatsRoyal',
-    description:
-    "WhatsApp API UI and AI Bot",
-    stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
-    image: '/assets/work/thumb3.png',
     live: "",
     github: ""
   },
@@ -74,7 +74,7 @@ const handleSlideChange = (swiper) => {
   return (
     <motion.section
     initial={{opacity: 0}}
-    animate={{opacity: 1, transition: {delay: 1.1, duration: 0.4, ease: "easeIn"}}}
+    animate={{opacity: 1, transition: { duration: 0.5, ease: "easeIn"}}}
     className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto">

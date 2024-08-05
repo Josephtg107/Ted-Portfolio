@@ -37,17 +37,17 @@ const projects = [
     title: 'L&S Wedding',
     description: "We built the website with my designers help to celebrate my sisters wedding, providing guests with all the essential information they need. It features a beautifully crafted interface to explore event details, RSVP, view the wedding registry, share heartfelt messages, and see a countdown timer. Guests can also enjoy photo collages and create personal accounts for a personalized experience, ensuring a memorable and informative page for everyone.",
     stack: [{name: "Html"}, {name: "Css"}, {name:"Javascript"}],
-    scene: 'https://draft.spline.design/pmWXD8kJiIvYCXpD/scene.splinecode',
+    scene: 'https://prod.spline.design/5hlM9T4VIgitrUiO/scene.splinecode',
     live: "",
     github: ""
   },
   {
-    num: '02',
-    category: 'Web App',
-    title: 'WhatsRoyal',
+    num: 'KeepUp!',
+    category: 'iOS App',
+    title: 'Daily Tracker',
     description: "WhatsApp API UI and AI Bot",
     stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
-    scene: 'https://prod.spline.design/qyKG2mtxTDg2izQM/scene.splinecode',
+    scene: 'https://prod.spline.design/4QKmmZ2MQ4lbFMFX/scene.splinecode',
     live: "",
     github: ""
   },

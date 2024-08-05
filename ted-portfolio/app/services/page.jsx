@@ -7,7 +7,7 @@ import Link from "next/link";
 const services = [
   {
     "num": "01",
-    "title": "iOS App",
+    "title": "iOS and iPadOS App",
     "description": "Expert iOS development services to create high-performance, user-friendly mobile applications. Specializing in Swift and SwiftUI, I design and build apps tailored to your specific needs, ensuring a seamless and engaging user experience.",
     "href": ""
   },
@@ -54,7 +54,7 @@ const Services = () => {
         initial={{opacity: 0}}
         animate={{
           opacity: 1,
-          transition: {delay: 2.4, duration: 0.4, ease: "easeIn" },
+          transition: { duration: 0.5, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
           >
