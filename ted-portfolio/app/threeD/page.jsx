@@ -12,18 +12,18 @@ import Spline from '@splinetool/react-spline';
 
 const projects = [
   {
-    num: 'EDL',
-    category: 'iPadOS App',
-    title: 'ELite Digital Learning',
+    num: 'Idiomly',
+    category: 'iOS App',
+    title: 'Idiomly!',
     description: "This app is designed for students, teachers, and school administrators to annotate PDF documents containing school lessons. It provides an easy way to load, annotate, and save educational documents, offering a seamless experience for organizing school materials. Users can quickly access and modify their documents. Additionally, the app supports the integration of 3D objects, audio, and video, allowing for an interactive and immersive learning experience.",
-    stack: [{name: "SwiftUI"}, {name: "PencilKit"}, {name:"Firebase"}, {name:"PDFKit"}],
-    scene: 'https://prod.spline.design/P4pjVUYz84JoII2H/scene.splinecode',
-    live: "",
-    github: ""
+    stack: [{name: "SwiftUI"}, {name: "UIKit"}, {name:"Firebase"}, {name:"PDFKit"}],
+    scene: 'https://prod.spline.design/LPJRO-5sIMSeNKYn/scene.splinecode',
+    live: "https://apps.apple.com/mx/app/idiomly/id6692630107?l=en-GB",
+    github: "https://github.com/Josephtg107/Idiomly"
   },
   {
     num: 'WhatsRoyal',
-    category: 'Web App',
+    category: 'iOS / Web App',
     title: 'Royal WhatsApp',
     description: "This WhatsApp API App with AI is designed to keep parents and clients informed and engaged. The system sends timely notifications about important events, updates, and activities. It provides a user-friendly interface for parents to receive real-time information about their children's progress, schedules, and school events. Clients can access our contact information, event details, and other relevant updates, ensuring seamless and effective communication for everyone involved.",
     stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
@@ -32,24 +32,34 @@ const projects = [
     github: ""
   },
   {
+    num: 'EDL',
+    category: 'iPadOS App',
+    title: 'ELite Digital Learning',
+    description: "This app is designed for students, teachers, and school administrators to annotate PDF documents containing school lessons. It provides an easy way to load, annotate, and save educational documents, offering a seamless experience for organizing school materials. Users can quickly access and modify their documents. Additionally, the app supports the integration of 3D objects, audio, and video, allowing for an interactive and immersive learning experience.",
+    stack: [{name: "SwiftUI"}, {name: "PencilKit"}, {name:"Firebase"}, {name:"PDFKit"}],
+    scene: 'https://prod.spline.design/P4pjVUYz84JoII2H/scene.splinecode',
+    live: "",
+    github: "https://github.com/Josephtg107/EDLPdf"
+  },
+  {
+    num: 'KeepUp!',
+    category: 'iOS App',
+    title: 'Daily Tracker',
+    description: "KeepUp! is an innovative daily activity tracker app designed to help users stay on top of their goals. It actively engages users throughout the day by notifying them of the tasks they set and prompting them to capture a photo as proof of completion. This dynamic system rewards consistency and transforms daily routines into an interactive experience, motivating users to maintain productivity and achieve personal milestones.",
+    stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
+    scene: 'https://prod.spline.design/4QKmmZ2MQ4lbFMFX/scene.splinecode',
+    live: "",
+    github: "https://github.com/Josephtg107/KeepUp-"
+  },
+  {
     num: 'S&L',
     category: 'Web Page',
     title: 'L&S Wedding',
     description: "We built the website with my designers help to celebrate my sisters wedding, providing guests with all the essential information they need. It features a beautifully crafted interface to explore event details, RSVP, view the wedding registry, share heartfelt messages, and see a countdown timer. Guests can also enjoy photo collages and create personal accounts for a personalized experience, ensuring a memorable and informative page for everyone.",
     stack: [{name: "Html"}, {name: "Css"}, {name:"Javascript"}],
     scene: 'https://prod.spline.design/5hlM9T4VIgitrUiO/scene.splinecode',
-    live: "",
-    github: ""
-  },
-  {
-    num: 'KeepUp!',
-    category: 'iOS App',
-    title: 'Daily Tracker',
-    description: "WhatsApp API UI and AI Bot",
-    stack: [{name: "NodeJs"}, {name: "NextJs"}, {name:"TailWind.css"}],
-    scene: 'https://prod.spline.design/4QKmmZ2MQ4lbFMFX/scene.splinecode',
-    live: "",
-    github: ""
+    live: "https://sarahiyluis.com/",
+    github: "https://github.com/Josephtg107/L-S-Wedding"
   },
 ];
 
@@ -81,7 +91,9 @@ const ThreeDContent = () => {
                   </ul>
                   <div className="border border-white/20"></div>
                   <div className='flex items-center gap-4'>
-                    <Link href={project.live}>
+                  {/* live project button - only show if the live link exists */}
+                  {project.live && (
+                    <Link href={project.live} passHref>
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -93,19 +105,25 @@ const ThreeDContent = () => {
                         </Tooltip>
                       </TooltipProvider>
                     </Link>
-                    <Link href={project.github}>
+                  )}
+
+                  {/* GitHub project button - only show if the GitHub link exists */}
+                  {project.github && (
+                    <Link href={project.github} passHref>
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
                             <BsGithub className="text-white text-3xl group-hover:text-accent" />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p>Github repository</p>
+                            <p>GitHub repository</p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
                     </Link>
-                  </div>
+                  )}
+                </div>
+
                 </div>
               </div>
               <div className='w-full xl:w-[50%]'>
