@@ -7,7 +7,6 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import Work from "./work/page";
-import ThreeDContent from "./threeD/page";
 
 const Home = () => {
   return (
@@ -58,7 +57,6 @@ const Home = () => {
       <Stats />
       {/* Add Services component here */}
       <Work /> 
-      <ThreeDContent />
     </section>
   );
 };
